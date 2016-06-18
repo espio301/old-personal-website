@@ -1,13 +1,17 @@
 body{
 	margin:0px;
 	padding:0px;
+	top: 200px;
 }
 #navbar{
-	width: 100vw;
-	height 200px;
+	width: 100%;
+	line-height: 70px;
 	position:fixed;
 	background-color:#000000;
 	text-align: center;
+	z-index: 0;
+	overflow:scroll;
+	max-height: 70px;
 }
 
 #navbar div{
@@ -20,6 +24,20 @@ body{
 #right{
 	float:right;
 }
+#container{
+	z-index: 0px;
+	clear: all;
+	position:absolute;
+	top:75px;
+	width:100%;
+}
 #emblem{
+	font-size:40px;
 	color: white;
+	border-color: orange;
+	border-width: 10px;
+}
+#welcomeBox{
+	position:absolute;
+	background-color: white;
 }
