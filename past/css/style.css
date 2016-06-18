@@ -1,0 +1,61 @@
+	body{
+		margin:0;
+		background-color: #ecfefe
+	}
+	#navbar{
+		position:fixed;
+		left:0px;
+		width:200px;
+		display:inline;
+		height:100vh;
+		background-color:white;
+	}
+	#textcontainer{
+		position:absolute;
+		top:0;
+		right:0;
+		width:80%;
+		height:100px;
+	}
+	#header{
+		font-size:14;
+		color:gray;
+		font-family:'Montserrat';	
+	}
+	div#navbar ul{
+		margin:0px;
+		padding: 0px;
+	}
+	div#navbar li{
+		color:white;
+		line-height: 50px;
+		text-align:center;
+		list-style:none;
+		background-color:gray;
+		border:10px;
+		padding:3px;
+		margin:0px;
+	}
+	div#navbar li:hover{
+		background-color: blue;
+	}
+
+	#media{
+		bottom:0px;
+		position:absolute;
+		height:200px;
+		width:200px;
+	}
+
+	#media img{
+		float:left;
+		height:100px;
+		width:100px;
+		opacity: 0.5;
+  		transition: opacity 0.2s ease-in-out;
+
+	}
+	#media img:hover{
+		opacity:1;
+	}
+
