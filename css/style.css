@@ -18,44 +18,51 @@ hr{
 }
 #navbar{
 	width: 100%;
-	line-height: 70px;
+	line-height: 50px;
 	position:fixed;
-	background-color:#000000;
 	text-align: center;
-	max-height: 70px;
+	background-color:#000000;
 	z-index: 2;
 }
 #navbar div{
 	display: inline-block;
 }
+#navbar img{
+	vertical-align: bottom;
+	height:50px;
+}
 
 #emblem{
-	font-size:px;
+	position: relative;
 	color: white;
-	border-color: orange;
 	border-width: 10px;
 }
 #left{
-	float: left;
+	position: absolute;
+	left:0px;
 }
 #right{
-	float:right;
+	position:absolute;
+	right:0px;
 }
 #container{
 	clear: all;
 	position:relative;
-	top:70px;
+	top:50px;
 	width:100%;
 }
 #welcomeBox{
 	position:relative;
-	background-color: black;
-	width:100%;
-	line-height:500px; 
-	text-align: center;
-	vertical-align:middle;
+	background-image: url("../images/grayscale.png");
+	background-repeat: no-repeat;
+background-size: 100% 500px;	
+height:500px; 
+width:100%;
 }
-
+#infoPic{
+	height:100px;
+	vertical-align: bottom;
+}
 .infoBoxLeft{
 	width:100%;
 	background-color:rgba(225,225,225,0.5);
